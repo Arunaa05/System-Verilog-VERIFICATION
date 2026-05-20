@@ -15,7 +15,6 @@ class driver;
       vif.a=t.a;
       vif.b=t.b;
       vif.cin=t.cin;
-      #2;
       t.display("Driver");
     end
   endtask
