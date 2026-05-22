@@ -1,0 +1,190 @@
+Loading snapshot worklib.tb_top:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+
+time= 20 [driver] rst=0 
+time= 30 [Monitor] rst=0 q=0
+[time=30] Actual_q =0000     Expected_q=0000
++------------------+
+|         PASS       |
++------------------+
+time= 40 [driver] rst=1 
+time= 50 [Monitor] rst=1 q=1
+[time=50] Actual_q =0001     Expected_q=0001
++------------------+
+|         PASS       |
++------------------+
+time= 60 [driver] rst=0 
+time= 70 [Monitor] rst=0 q=0
+[time=70] Actual_q =0000     Expected_q=0000
++------------------+
+|         PASS       |
++------------------+
+time= 80 [driver] rst=0 
+time= 90 [Monitor] rst=0 q=1
+[time=90] Actual_q =0001     Expected_q=0001
++------------------+
+|         PASS       |
++------------------+
+time= 100 [driver] rst=0 
+time= 110 [Monitor] rst=0 q=3
+[time=110] Actual_q =0011     Expected_q=0011
++------------------+
+|         PASS       |
++------------------+
+time= 120 [driver] rst=0 
+time= 130 [Monitor] rst=0 q=7
+[time=130] Actual_q =0111     Expected_q=0111
++------------------+
+|         PASS       |
++------------------+
+time= 140 [driver] rst=0 
+time= 150 [Monitor] rst=0 q=15
+[time=150] Actual_q =1111     Expected_q=1111
++------------------+
+|         PASS       |
++------------------+
+time= 160 [driver] rst=0 
+time= 170 [Monitor] rst=0 q=14
+[time=170] Actual_q =1110     Expected_q=1110
++------------------+
+|         PASS       |
++------------------+
+time= 180 [driver] rst=0 
+time= 190 [Monitor] rst=0 q=12
+[time=190] Actual_q =1100     Expected_q=1100
++------------------+
+|         PASS       |
++------------------+
+time= 200 [driver] rst=0 
+time= 210 [Monitor] rst=0 q=8
+[time=210] Actual_q =1000     Expected_q=1000
++------------------+
+|         PASS       |
++------------------+
+time= 220 [driver] rst=0 
+time= 230 [Monitor] rst=0 q=0
+[time=230] Actual_q =0000     Expected_q=0000
++------------------+
+|         PASS       |
++------------------+
+time= 240 [driver] rst=0 
+time= 250 [Monitor] rst=0 q=1
+[time=250] Actual_q =0001     Expected_q=0001
++------------------+
+|         PASS       |
++------------------+
+time= 260 [driver] rst=0 
+time= 270 [Monitor] rst=0 q=3
+[time=270] Actual_q =0011     Expected_q=0011
++------------------+
+|         PASS       |
++------------------+
+time= 280 [driver] rst=0 
+time= 290 [Monitor] rst=0 q=7
+[time=290] Actual_q =0111     Expected_q=0111
++------------------+
+|         PASS       |
++------------------+
+time= 300 [driver] rst=0 
+time= 310 [Monitor] rst=0 q=15
+[time=310] Actual_q =1111     Expected_q=1111
++------------------+
+|         PASS       |
++------------------+
+time= 320 [driver] rst=0 
+time= 330 [Monitor] rst=0 q=14
+[time=330] Actual_q =1110     Expected_q=1110
++------------------+
+|         PASS       |
++------------------+
+time= 340 [driver] rst=0 
+time= 350 [Monitor] rst=0 q=12
+[time=350] Actual_q =1100     Expected_q=1100
++------------------+
+|         PASS       |
++------------------+
+time= 360 [driver] rst=1 
+time= 370 [Monitor] rst=1 q=8
+[time=370] Actual_q =1000     Expected_q=1000
++------------------+
+|         PASS       |
++------------------+
+time= 380 [driver] rst=0 
+time= 390 [Monitor] rst=0 q=0
+[time=390] Actual_q =0000     Expected_q=0000
++------------------+
+|         PASS       |
++------------------+
+time= 400 [driver] rst=0 
+time= 410 [Monitor] rst=0 q=1
+[time=410] Actual_q =0001     Expected_q=0001
++------------------+
+|         PASS       |
++------------------+
+time= 420 [driver] rst=0 
+time= 430 [Monitor] rst=0 q=3
+[time=430] Actual_q =0011     Expected_q=0011
++------------------+
+|         PASS       |
++------------------+
+time= 440 [driver] rst=0 
+time= 450 [Monitor] rst=0 q=7
+[time=450] Actual_q =0111     Expected_q=0111
++------------------+
+|         PASS       |
++------------------+
+time= 460 [driver] rst=0 
+time= 470 [Monitor] rst=0 q=15
+[time=470] Actual_q =1111     Expected_q=1111
++------------------+
+|         PASS       |
++------------------+
+time= 480 [driver] rst=1 
+time= 490 [Monitor] rst=1 q=14
+[time=490] Actual_q =1110     Expected_q=1110
++------------------+
+|         PASS       |
++------------------+
+time= 500 [driver] rst=0 
+time= 510 [Monitor] rst=0 q=0
+[time=510] Actual_q =0000     Expected_q=0000
++------------------+
+|         PASS       |
++------------------+
+time= 520 [driver] rst=0 
+time= 530 [Monitor] rst=0 q=1
+[time=530] Actual_q =0001     Expected_q=0001
++------------------+
+|         PASS       |
++------------------+
+time= 540 [driver] rst=0 
+time= 550 [Monitor] rst=0 q=3
+[time=550] Actual_q =0011     Expected_q=0011
++------------------+
+|         PASS       |
++------------------+
+time= 560 [driver] rst=0 
+time= 570 [Monitor] rst=0 q=7
+[time=570] Actual_q =0111     Expected_q=0111
++------------------+
+|         PASS       |
++------------------+
+time= 580 [driver] rst=0 
+time= 590 [Monitor] rst=0 q=15
+[time=590] Actual_q =1111     Expected_q=1111
++------------------+
+|         PASS       |
++------------------+
+time= 600 [driver] rst=0 
+time= 610 [Monitor] rst=0 q=14
+[time=610] Actual_q =1110     Expected_q=1110
++------------------+
+|         PASS       |
++------------------+
+Simulation complete via $finish(1) at time 700 NS + 0
+./testbench.sv:35         $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on May 21, 2026 at 21:46:42 EDT  (total: 00:00:01)
+Done
