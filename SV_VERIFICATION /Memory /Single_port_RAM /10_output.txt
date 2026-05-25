@@ -1,0 +1,171 @@
+[GENERATOR] time=0t                   5
+[MONITOR] time=6 rst=1 en=0 we=0 addr=0 data=0 dout=0
+[SCOREBOARD] Reset:expected=00000000 actual=00000000
+[DRIVER] time =10 sig.rst =0.sig.en=0 ,sig.data =11010111 , sig.addr =1110
+[GENERATOR] time=0t                  15
+[MONITOR] time=16 rst=0 en=0 we=0 addr=14 data=215 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =20 sig.rst =0.sig.en=1 ,sig.data =11101011 , sig.addr =0111
+[GENERATOR] time=0t                  25
+[MONITOR] time=26 rst=0 en=1 we=1 addr=7 data=235 dout=0
+[SCOREBOARD] Write:addr=0111 data=11101011
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =30 sig.rst =0.sig.en=0 ,sig.data =11100101 , sig.addr =1100
+[GENERATOR] time=0t                  35
+[MONITOR] time=36 rst=0 en=0 we=0 addr=12 data=229 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =40 sig.rst =0.sig.en=0 ,sig.data =10110001 , sig.addr =0101
+[GENERATOR] time=0t                  45
+[MONITOR] time=46 rst=0 en=0 we=0 addr=5 data=177 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =50 sig.rst =0.sig.en=0 ,sig.data =00100000 , sig.addr =0110
+[GENERATOR] time=0t                  55
+[MONITOR] time=56 rst=0 en=0 we=0 addr=6 data=32 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =60 sig.rst =0.sig.en=1 ,sig.data =01001000 , sig.addr =0000
+[GENERATOR] time=0t                  65
+[MONITOR] time=66 rst=0 en=1 we=0 addr=0 data=72 dout=0
+[SCOREBOARD] Read:addr=0000 expected=00000000 actual=00000000
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =70 sig.rst =0.sig.en=1 ,sig.data =01111001 , sig.addr =1100
+[GENERATOR] time=0t                  75
+[MONITOR] time=76 rst=0 en=1 we=1 addr=12 data=121 dout=0
+[SCOREBOARD] Write:addr=1100 data=01111001
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =80 sig.rst =0.sig.en=0 ,sig.data =00110101 , sig.addr =1111
+[GENERATOR] time=0t                  85
+[MONITOR] time=86 rst=0 en=0 we=0 addr=15 data=53 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =90 sig.rst =0.sig.en=0 ,sig.data =01101111 , sig.addr =1110
+[GENERATOR] time=0t                  95
+[MONITOR] time=96 rst=0 en=0 we=0 addr=14 data=111 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =100 sig.rst =0.sig.en=0 ,sig.data =11001010 , sig.addr =1010
+[GENERATOR] time=0t                 105
+[MONITOR] time=106 rst=0 en=0 we=0 addr=10 data=202 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =110 sig.rst =0.sig.en=1 ,sig.data =00000101 , sig.addr =1111
+[GENERATOR] time=0t                 115
+[MONITOR] time=116 rst=0 en=1 we=0 addr=15 data=5 dout=0
+[SCOREBOARD] Read:addr=1111 expected=00000000 actual=00000000
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =120 sig.rst =0.sig.en=1 ,sig.data =00001011 , sig.addr =0110
+[GENERATOR] time=0t                 125
+[MONITOR] time=126 rst=0 en=1 we=1 addr=6 data=11 dout=0
+[SCOREBOARD] Write:addr=0110 data=00001011
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =130 sig.rst =0.sig.en=1 ,sig.data =11010100 , sig.addr =1110
+[GENERATOR] time=0t                 135
+[MONITOR] time=136 rst=0 en=1 we=1 addr=14 data=212 dout=0
+[SCOREBOARD] Write:addr=1110 data=11010100
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =140 sig.rst =0.sig.en=1 ,sig.data =10001101 , sig.addr =1111
+[GENERATOR] time=0t                 145
+[MONITOR] time=146 rst=0 en=1 we=1 addr=15 data=141 dout=0
+[SCOREBOARD] Write:addr=1111 data=10001101
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =150 sig.rst =0.sig.en=1 ,sig.data =10101001 , sig.addr =1111
+[GENERATOR] time=0t                 155
+[MONITOR] time=156 rst=0 en=1 we=1 addr=15 data=169 dout=0
+[SCOREBOARD] Write:addr=1111 data=10101001
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =160 sig.rst =0.sig.en=0 ,sig.data =01000000 , sig.addr =1100
+[GENERATOR] time=0t                 165
+[MONITOR] time=166 rst=0 en=0 we=0 addr=12 data=64 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =170 sig.rst =0.sig.en=0 ,sig.data =11100010 , sig.addr =0100
+[GENERATOR] time=0t                 175
+[MONITOR] time=176 rst=0 en=0 we=0 addr=4 data=226 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =180 sig.rst =0.sig.en=1 ,sig.data =01010110 , sig.addr =0011
+[GENERATOR] time=0t                 185
+[MONITOR] time=186 rst=0 en=1 we=1 addr=3 data=86 dout=0
+[SCOREBOARD] Write:addr=0011 data=01010110
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =190 sig.rst =0.sig.en=0 ,sig.data =01001001 , sig.addr =0001
+[GENERATOR] time=0t                 195
+[MONITOR] time=196 rst=0 en=0 we=0 addr=1 data=73 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =200 sig.rst =0.sig.en=0 ,sig.data =11100100 , sig.addr =1011
+[GENERATOR] time=0t                 205
+[MONITOR] time=206 rst=0 en=0 we=0 addr=11 data=228 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =210 sig.rst =0.sig.en=1 ,sig.data =11100010 , sig.addr =1001
+[GENERATOR] time=0t                 215
+[MONITOR] time=216 rst=0 en=1 we=0 addr=9 data=226 dout=0
+[SCOREBOARD] Read:addr=1001 expected=00000000 actual=00000000
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =220 sig.rst =0.sig.en=0 ,sig.data =10101110 , sig.addr =1000
+[GENERATOR] time=0t                 225
+[MONITOR] time=226 rst=0 en=0 we=0 addr=8 data=174 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =230 sig.rst =0.sig.en=0 ,sig.data =00100111 , sig.addr =0010
+[GENERATOR] time=0t                 235
+[MONITOR] time=236 rst=0 en=0 we=0 addr=2 data=39 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =240 sig.rst =0.sig.en=1 ,sig.data =11000100 , sig.addr =1110
+[GENERATOR] time=0t                 245
+[MONITOR] time=246 rst=0 en=1 we=1 addr=14 data=196 dout=0
+[SCOREBOARD] Write:addr=1110 data=11000100
+-------------------------------
+          READ PASS            
+-------------------------------
+[DRIVER] time =250 sig.rst =0.sig.en=0 ,sig.data =10010001 , sig.addr =0000
+[GENERATOR] time=0t                 255
+[MONITOR] time=256 rst=0 en=0 we=0 addr=0 data=145 dout=0
+-------------------------------
+   [SCOREBOARD]RAM DISABLED
+-------------------------------
+[DRIVER] time =260 sig.rst =0.sig.en=1 ,sig.data =00011101 , sig.addr =1101
+[GENERATOR] time=0t                 265
+[MONITOR] time=266 rst=0 en=1 we=1 addr=13 data=29 dout=0
+[SCOREBOARD] Write:addr=1101 data=00011101
+-------------------------------
+          READ PASS            
+-------------------------------
