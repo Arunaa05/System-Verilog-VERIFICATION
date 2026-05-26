@@ -1,0 +1,80 @@
+[Driver] time=5 w_en=0 r_en=0 data_in=1
+[MONITOR]time=6 w_en=0 r_en=0 data_in=1 data_out=0
+[Driver] time=15 w_en=0 r_en=0 data_in=1
+[MONITOR]time=16 w_en=0 r_en=0 data_in=1 data_out=0
+[Driver] time=25 w_en=0 r_en=0 data_in=1
+[MONITOR]time=26 w_en=1 r_en=0 data_in=0 data_out=0
+[SCOREBOARD] data_in=0
+[Driver] time=35 w_en=1 r_en=0 data_in=0
+[MONITOR]time=36 w_en=1 r_en=0 data_in=0 data_out=0
+[SCOREBOARD] data_in=0
+[Driver] time=45 w_en=1 r_en=0 data_in=0
+[MONITOR]time=46 w_en=1 r_en=1 data_in=0 data_out=0
+[SCOREBOARD] data_in=0
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+[Driver] time=55 w_en=1 r_en=1 data_in=0
+[MONITOR]time=56 w_en=0 r_en=1 data_in=0 data_out=0
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+[Driver] time=65 w_en=0 r_en=1 data_in=0
+[MONITOR]time=66 w_en=0 r_en=0 data_in=0 data_out=0
+[Driver] time=75 w_en=0 r_en=0 data_in=0
+[MONITOR]time=76 w_en=1 r_en=0 data_in=0 data_out=0
+[SCOREBOARD] data_in=0
+[Driver] time=85 w_en=1 r_en=0 data_in=0
+[MONITOR]time=86 w_en=0 r_en=1 data_in=0 data_out=0
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+[Driver] time=95 w_en=0 r_en=1 data_in=0
+[MONITOR]time=96 w_en=1 r_en=0 data_in=1 data_out=0
+[SCOREBOARD] data_in=1
+[Driver] time=105 w_en=1 r_en=0 data_in=1
+[MONITOR]time=106 w_en=1 r_en=1 data_in=1 data_out=0
+[SCOREBOARD] data_in=1
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+[Driver] time=115 w_en=1 r_en=1 data_in=1
+[MONITOR]time=116 w_en=0 r_en=0 data_in=1 data_out=0
+[Driver] time=125 w_en=0 r_en=0 data_in=1
+[MONITOR]time=126 w_en=0 r_en=1 data_in=0 data_out=0
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+[Driver] time=135 w_en=0 r_en=1 data_in=0
+[MONITOR]time=136 w_en=1 r_en=1 data_in=0 data_out=1
+[SCOREBOARD] data_in=0
+[SCOREBOARD] expected=  1 actual=1
+-----------------
+      PASS       
+-----------------
+[Driver] time=145 w_en=1 r_en=1 data_in=0
+[MONITOR]time=146 w_en=0 r_en=1 data_in=0 data_out=1
+[SCOREBOARD] expected=  1 actual=1
+-----------------
+      PASS       
+-----------------
+[Driver] time=155 w_en=0 r_en=1 data_in=0
+[MONITOR]time=156 w_en=0 r_en=1 data_in=1 data_out=0
+[Driver] time=165 w_en=0 r_en=1 data_in=1
+[MONITOR]time=166 w_en=0 r_en=0 data_in=1 data_out=0
+[Driver] time=175 w_en=0 r_en=0 data_in=1
+[MONITOR]time=176 w_en=1 r_en=1 data_in=0 data_out=0
+[SCOREBOARD] data_in=0
+[SCOREBOARD] expected=  0 actual=0
+-----------------
+      PASS       
+-----------------
+
+Simulation complete via $finish(1) at time 500 NS + 0
+./testbench.sv:37     $finish;
+xcelium> exit
