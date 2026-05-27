@@ -15,11 +15,7 @@ class scoreboard;
       m2sb.get(t);
       
       expected=prev_expected;
-      if(t.w_en && ref_q.size()<8)
-        begin
-          ref_q.push_back(t.data_in);
-          $display("[SCOREBOARD] data_in=%d",t.data_in);
-        end
+      
       if(t.r_en && ref_q.size()>0)
         begin
           prev_expected = ref_q.pop_front();
@@ -36,6 +32,11 @@ class scoreboard;
               $display("      FAIL       ");
               $display("-----------------");
             end
+        end
+      if(t.w_en && ref_q.size()<8)
+        begin
+          ref_q.push_back(t.data_in);
+          $display("[SCOREBOARD] data_in=%d",t.data_in);
         end
     end
   endtask
