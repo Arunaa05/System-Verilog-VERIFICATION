@@ -1,6 +1,6 @@
 class transaction;
   rand bit w_en;
   rand bit r_en;
-  rand bit data_in;
-  bit data_out;
+  rand bit [7:0]data_in;
+  bit [7:0]data_out;
 endclass
