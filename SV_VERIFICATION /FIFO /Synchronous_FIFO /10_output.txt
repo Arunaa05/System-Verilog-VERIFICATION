@@ -1,80 +1,264 @@
-[Driver] time=5 w_en=0 r_en=0 data_in=1
-[MONITOR]time=6 w_en=0 r_en=0 data_in=1 data_out=0
-[Driver] time=15 w_en=0 r_en=0 data_in=1
-[MONITOR]time=16 w_en=0 r_en=0 data_in=1 data_out=0
-[Driver] time=25 w_en=0 r_en=0 data_in=1
-[MONITOR]time=26 w_en=1 r_en=0 data_in=0 data_out=0
-[SCOREBOARD] data_in=0
-[Driver] time=35 w_en=1 r_en=0 data_in=0
-[MONITOR]time=36 w_en=1 r_en=0 data_in=0 data_out=0
-[SCOREBOARD] data_in=0
-[Driver] time=45 w_en=1 r_en=0 data_in=0
-[MONITOR]time=46 w_en=1 r_en=1 data_in=0 data_out=0
-[SCOREBOARD] data_in=0
-[SCOREBOARD] expected=  0 actual=0
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[GENERATOR] w_en=0, r_en=0,data_in=151
+[GENERATOR] w_en=0, r_en=0,data_in=181
+[GENERATOR] w_en=0, r_en=0,data_in=137
+[GENERATOR] w_en=1, r_en=0,data_in=20
+[GENERATOR] w_en=1, r_en=0,data_in=232
+[GENERATOR] w_en=1, r_en=1,data_in=8
+[GENERATOR] w_en=0, r_en=1,data_in=164
+[GENERATOR] w_en=0, r_en=0,data_in=112
+[GENERATOR] w_en=1, r_en=0,data_in=206
+[GENERATOR] w_en=0, r_en=1,data_in=120
+[GENERATOR] w_en=1, r_en=0,data_in=251
+[GENERATOR] w_en=1, r_en=1,data_in=25
+[GENERATOR] w_en=0, r_en=0,data_in=147
+[GENERATOR] w_en=0, r_en=1,data_in=234
+[GENERATOR] w_en=1, r_en=1,data_in=64
+[GENERATOR] w_en=0, r_en=1,data_in=32
+[GENERATOR] w_en=0, r_en=1,data_in=11
+[GENERATOR] w_en=0, r_en=0,data_in=217
+[GENERATOR] w_en=1, r_en=1,data_in=246
+[GENERATOR] w_en=0, r_en=1,data_in=55
+[GENERATOR] w_en=0, r_en=0,data_in=40
+[GENERATOR] w_en=1, r_en=0,data_in=194
+[GENERATOR] w_en=1, r_en=0,data_in=36
+[GENERATOR] w_en=0, r_en=1,data_in=81
+[GENERATOR] w_en=1, r_en=0,data_in=150
+[GENERATOR] w_en=1, r_en=0,data_in=212
+[GENERATOR] w_en=0, r_en=1,data_in=178
+[GENERATOR] w_en=1, r_en=1,data_in=191
+[GENERATOR] w_en=0, r_en=1,data_in=74
+[GENERATOR] w_en=1, r_en=1,data_in=147
+[GENERATOR] w_en=0, r_en=1,data_in=23
+[GENERATOR] w_en=1, r_en=1,data_in=21
+[GENERATOR] w_en=1, r_en=0,data_in=239
+[GENERATOR] w_en=0, r_en=1,data_in=78
+[GENERATOR] w_en=1, r_en=1,data_in=74
+[GENERATOR] w_en=0, r_en=1,data_in=203
+[GENERATOR] w_en=0, r_en=1,data_in=177
+[GENERATOR] w_en=0, r_en=0,data_in=190
+[GENERATOR] w_en=0, r_en=1,data_in=215
+[GENERATOR] w_en=0, r_en=1,data_in=67
+[GENERATOR] w_en=1, r_en=1,data_in=146
+[GENERATOR] w_en=1, r_en=0,data_in=45
+[GENERATOR] w_en=0, r_en=1,data_in=71
+[GENERATOR] w_en=0, r_en=0,data_in=121
+[GENERATOR] w_en=1, r_en=0,data_in=175
+[GENERATOR] w_en=1, r_en=0,data_in=127
+[GENERATOR] w_en=0, r_en=1,data_in=34
+[GENERATOR] w_en=0, r_en=0,data_in=237
+[GENERATOR] w_en=1, r_en=1,data_in=225
+[GENERATOR] w_en=0, r_en=1,data_in=71
+[Driver] time=5 w_en=0 r_en=0 data_in=151
+[MONITOR]time=6 w_en=0 r_en=0 data_in=151 data_out=0
+[Driver] time=15 w_en=0 r_en=0 data_in=181
+[MONITOR]time=16 w_en=0 r_en=0 data_in=181 data_out=0
+[Driver] time=25 w_en=0 r_en=0 data_in=137
+[MONITOR]time=26 w_en=0 r_en=0 data_in=137 data_out=0
+[Driver] time=35 w_en=1 r_en=0 data_in= 20
+[MONITOR]time=36 w_en=1 r_en=0 data_in=20 data_out=0
+[SCOREBOARD] data_in=20
+[Driver] time=45 w_en=1 r_en=0 data_in=232
+[MONITOR]time=46 w_en=1 r_en=0 data_in=232 data_out=0
+[SCOREBOARD] data_in=232
+[Driver] time=55 w_en=1 r_en=1 data_in=  8
+[MONITOR]time=56 w_en=1 r_en=1 data_in=8 data_out=0
+[SCOREBOARD] expected=0 actual=0
 -----------------
       PASS       
 -----------------
-[Driver] time=55 w_en=1 r_en=1 data_in=0
-[MONITOR]time=56 w_en=0 r_en=1 data_in=0 data_out=0
-[SCOREBOARD] expected=  0 actual=0
+[SCOREBOARD] data_in=8
+[Driver] time=65 w_en=0 r_en=1 data_in=164
+[MONITOR]time=66 w_en=0 r_en=1 data_in=164 data_out=20
+[SCOREBOARD] expected=20 actual=20
 -----------------
       PASS       
 -----------------
-[Driver] time=65 w_en=0 r_en=1 data_in=0
-[MONITOR]time=66 w_en=0 r_en=0 data_in=0 data_out=0
-[Driver] time=75 w_en=0 r_en=0 data_in=0
-[MONITOR]time=76 w_en=1 r_en=0 data_in=0 data_out=0
-[SCOREBOARD] data_in=0
-[Driver] time=85 w_en=1 r_en=0 data_in=0
-[MONITOR]time=86 w_en=0 r_en=1 data_in=0 data_out=0
-[SCOREBOARD] expected=  0 actual=0
+[Driver] time=75 w_en=0 r_en=0 data_in=112
+[MONITOR]time=76 w_en=0 r_en=0 data_in=112 data_out=232
+[Driver] time=85 w_en=1 r_en=0 data_in=206
+[MONITOR]time=86 w_en=1 r_en=0 data_in=206 data_out=232
+[SCOREBOARD] data_in=206
+[Driver] time=95 w_en=0 r_en=1 data_in=120
+[MONITOR]time=96 w_en=0 r_en=1 data_in=120 data_out=232
+[SCOREBOARD] expected=232 actual=232
 -----------------
       PASS       
 -----------------
-[Driver] time=95 w_en=0 r_en=1 data_in=0
-[MONITOR]time=96 w_en=1 r_en=0 data_in=1 data_out=0
-[SCOREBOARD] data_in=1
-[Driver] time=105 w_en=1 r_en=0 data_in=1
-[MONITOR]time=106 w_en=1 r_en=1 data_in=1 data_out=0
-[SCOREBOARD] data_in=1
-[SCOREBOARD] expected=  0 actual=0
+[Driver] time=105 w_en=1 r_en=0 data_in=251
+[MONITOR]time=106 w_en=1 r_en=0 data_in=251 data_out=8
+[SCOREBOARD] data_in=251
+[Driver] time=115 w_en=1 r_en=1 data_in= 25
+[MONITOR]time=116 w_en=1 r_en=1 data_in=25 data_out=8
+[SCOREBOARD] expected=8 actual=8
 -----------------
       PASS       
 -----------------
-[Driver] time=115 w_en=1 r_en=1 data_in=1
-[MONITOR]time=116 w_en=0 r_en=0 data_in=1 data_out=0
-[Driver] time=125 w_en=0 r_en=0 data_in=1
-[MONITOR]time=126 w_en=0 r_en=1 data_in=0 data_out=0
-[SCOREBOARD] expected=  0 actual=0
+[SCOREBOARD] data_in=25
+[Driver] time=125 w_en=0 r_en=0 data_in=147
+[MONITOR]time=126 w_en=0 r_en=0 data_in=147 data_out=206
+[Driver] time=135 w_en=0 r_en=1 data_in=234
+[MONITOR]time=136 w_en=0 r_en=1 data_in=234 data_out=206
+[SCOREBOARD] expected=206 actual=206
 -----------------
       PASS       
 -----------------
-[Driver] time=135 w_en=0 r_en=1 data_in=0
-[MONITOR]time=136 w_en=1 r_en=1 data_in=0 data_out=1
-[SCOREBOARD] data_in=0
-[SCOREBOARD] expected=  1 actual=1
+[Driver] time=145 w_en=1 r_en=1 data_in= 64
+[MONITOR]time=146 w_en=1 r_en=1 data_in=64 data_out=251
+[SCOREBOARD] expected=251 actual=251
 -----------------
       PASS       
 -----------------
-[Driver] time=145 w_en=1 r_en=1 data_in=0
-[MONITOR]time=146 w_en=0 r_en=1 data_in=0 data_out=1
-[SCOREBOARD] expected=  1 actual=1
+[SCOREBOARD] data_in=64
+[Driver] time=155 w_en=0 r_en=1 data_in= 32
+[MONITOR]time=156 w_en=0 r_en=1 data_in=32 data_out=25
+[SCOREBOARD] expected=25 actual=25
 -----------------
       PASS       
 -----------------
-[Driver] time=155 w_en=0 r_en=1 data_in=0
-[MONITOR]time=156 w_en=0 r_en=1 data_in=1 data_out=0
-[Driver] time=165 w_en=0 r_en=1 data_in=1
-[MONITOR]time=166 w_en=0 r_en=0 data_in=1 data_out=0
-[Driver] time=175 w_en=0 r_en=0 data_in=1
-[MONITOR]time=176 w_en=1 r_en=1 data_in=0 data_out=0
-[SCOREBOARD] data_in=0
-[SCOREBOARD] expected=  0 actual=0
+[Driver] time=165 w_en=0 r_en=1 data_in= 11
+[MONITOR]time=166 w_en=0 r_en=1 data_in=11 data_out=64
+[Driver] time=175 w_en=0 r_en=0 data_in=217
+[MONITOR]time=176 w_en=0 r_en=0 data_in=217 data_out=64
+[Driver] time=185 w_en=1 r_en=1 data_in=246
+[MONITOR]time=186 w_en=1 r_en=1 data_in=246 data_out=64
+[SCOREBOARD] data_in=246
+[Driver] time=195 w_en=0 r_en=1 data_in= 55
+[MONITOR]time=196 w_en=0 r_en=1 data_in=55 data_out=64
+[SCOREBOARD] expected=64 actual=64
 -----------------
       PASS       
 -----------------
-
+[Driver] time=205 w_en=0 r_en=0 data_in= 40
+[MONITOR]time=206 w_en=0 r_en=0 data_in=40 data_out=246
+[Driver] time=215 w_en=1 r_en=0 data_in=194
+[MONITOR]time=216 w_en=1 r_en=0 data_in=194 data_out=246
+[SCOREBOARD] data_in=194
+[Driver] time=225 w_en=1 r_en=0 data_in= 36
+[MONITOR]time=226 w_en=1 r_en=0 data_in=36 data_out=246
+[SCOREBOARD] data_in=36
+[Driver] time=235 w_en=0 r_en=1 data_in= 81
+[MONITOR]time=236 w_en=0 r_en=1 data_in=81 data_out=246
+[SCOREBOARD] expected=246 actual=246
+-----------------
+      PASS       
+-----------------
+[Driver] time=245 w_en=1 r_en=0 data_in=150
+[MONITOR]time=246 w_en=1 r_en=0 data_in=150 data_out=194
+[SCOREBOARD] data_in=150
+[Driver] time=255 w_en=1 r_en=0 data_in=212
+[MONITOR]time=256 w_en=1 r_en=0 data_in=212 data_out=194
+[SCOREBOARD] data_in=212
+[Driver] time=265 w_en=0 r_en=1 data_in=178
+[MONITOR]time=266 w_en=0 r_en=1 data_in=178 data_out=194
+[SCOREBOARD] expected=194 actual=194
+-----------------
+      PASS       
+-----------------
+[Driver] time=275 w_en=1 r_en=1 data_in=191
+[MONITOR]time=276 w_en=1 r_en=1 data_in=191 data_out=36
+[SCOREBOARD] expected=36 actual=36
+-----------------
+      PASS       
+-----------------
+[SCOREBOARD] data_in=191
+[Driver] time=285 w_en=0 r_en=1 data_in= 74
+[MONITOR]time=286 w_en=0 r_en=1 data_in=74 data_out=150
+[SCOREBOARD] expected=150 actual=150
+-----------------
+      PASS       
+-----------------
+[Driver] time=295 w_en=1 r_en=1 data_in=147
+[MONITOR]time=296 w_en=1 r_en=1 data_in=147 data_out=212
+[SCOREBOARD] expected=212 actual=212
+-----------------
+      PASS       
+-----------------
+[SCOREBOARD] data_in=147
+[Driver] time=305 w_en=0 r_en=1 data_in= 23
+[MONITOR]time=306 w_en=0 r_en=1 data_in=23 data_out=191
+[SCOREBOARD] expected=191 actual=191
+-----------------
+      PASS       
+-----------------
+[Driver] time=315 w_en=1 r_en=1 data_in= 21
+[MONITOR]time=316 w_en=1 r_en=1 data_in=21 data_out=147
+[SCOREBOARD] data_in=21
+[Driver] time=325 w_en=1 r_en=0 data_in=239
+[MONITOR]time=326 w_en=1 r_en=0 data_in=239 data_out=147
+[SCOREBOARD] data_in=239
+[Driver] time=335 w_en=0 r_en=1 data_in= 78
+[MONITOR]time=336 w_en=0 r_en=1 data_in=78 data_out=147
+[SCOREBOARD] expected=147 actual=147
+-----------------
+      PASS       
+-----------------
+[Driver] time=345 w_en=1 r_en=1 data_in= 74
+[MONITOR]time=346 w_en=1 r_en=1 data_in=74 data_out=21
+[SCOREBOARD] expected=21 actual=21
+-----------------
+      PASS       
+-----------------
+[SCOREBOARD] data_in=74
+[Driver] time=355 w_en=0 r_en=1 data_in=203
+[MONITOR]time=356 w_en=0 r_en=1 data_in=203 data_out=239
+[SCOREBOARD] expected=239 actual=239
+-----------------
+      PASS       
+-----------------
+[Driver] time=365 w_en=0 r_en=1 data_in=177
+[MONITOR]time=366 w_en=0 r_en=1 data_in=177 data_out=74
+[Driver] time=375 w_en=0 r_en=0 data_in=190
+[MONITOR]time=376 w_en=0 r_en=0 data_in=190 data_out=74
+[Driver] time=385 w_en=0 r_en=1 data_in=215
+[MONITOR]time=386 w_en=0 r_en=1 data_in=215 data_out=74
+[Driver] time=395 w_en=0 r_en=1 data_in= 67
+[MONITOR]time=396 w_en=0 r_en=1 data_in=67 data_out=74
+[Driver] time=405 w_en=1 r_en=1 data_in=146
+[MONITOR]time=406 w_en=1 r_en=1 data_in=146 data_out=74
+[SCOREBOARD] data_in=146
+[Driver] time=415 w_en=1 r_en=0 data_in= 45
+[MONITOR]time=416 w_en=1 r_en=0 data_in=45 data_out=74
+[SCOREBOARD] data_in=45
+[Driver] time=425 w_en=0 r_en=1 data_in= 71
+[MONITOR]time=426 w_en=0 r_en=1 data_in=71 data_out=74
+[SCOREBOARD] expected=74 actual=74
+-----------------
+      PASS       
+-----------------
+[Driver] time=435 w_en=0 r_en=0 data_in=121
+[MONITOR]time=436 w_en=0 r_en=0 data_in=121 data_out=146
+[Driver] time=445 w_en=1 r_en=0 data_in=175
+[MONITOR]time=446 w_en=1 r_en=0 data_in=175 data_out=146
+[SCOREBOARD] data_in=175
+[Driver] time=455 w_en=1 r_en=0 data_in=127
+[MONITOR]time=456 w_en=1 r_en=0 data_in=127 data_out=146
+[SCOREBOARD] data_in=127
+[Driver] time=465 w_en=0 r_en=1 data_in= 34
+[MONITOR]time=466 w_en=0 r_en=1 data_in=34 data_out=146
+[SCOREBOARD] expected=146 actual=146
+-----------------
+      PASS       
+-----------------
+[Driver] time=475 w_en=0 r_en=0 data_in=237
+[MONITOR]time=476 w_en=0 r_en=0 data_in=237 data_out=45
+[Driver] time=485 w_en=1 r_en=1 data_in=225
+[MONITOR]time=486 w_en=1 r_en=1 data_in=225 data_out=45
+[SCOREBOARD] expected=45 actual=45
+-----------------
+      PASS       
+-----------------
+[SCOREBOARD] data_in=225
+[Driver] time=495 w_en=0 r_en=1 data_in= 71
+[MONITOR]time=496 w_en=0 r_en=1 data_in=71 data_out=175
+[SCOREBOARD] expected=175 actual=175
+-----------------
+      PASS       
+-----------------
 Simulation complete via $finish(1) at time 500 NS + 0
 ./testbench.sv:37     $finish;
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on May 27, 2026 at 07:28:50 EDT  (total: 00:00:01)
+Donenish;
 xcelium> exit
